@@ -1,0 +1,18 @@
+[submodule "Automation-Framework/automation-api-service"]
+	path = Automation-Framework/automation-api-service
+	url = https://github.com/ONDC-Official/automation-api-service.git
+[submodule "Automation-Framework/automation-frontend"]
+	path = Automation-Framework/automation-frontend
+	url = https://github.com/ONDC-Official/automation-frontend.git
+[submodule "Mock-Server-v1/ondc-mock-server"]
+	path = Mock-Server-v1/ondc-mock-server
+	url = https://github.com/ONDC-Official/ondc-mock-server.git
+[submodule "Mock-Server-v1/mock-server-utility"]
+	path = Mock-Server-v1/mock-server-utility
+	url = https://github.com/ONDC-Official/mock-server-utility.git
+[submodule "Mock-Server-v2/sandbox-ui"]
+	path = Mock-Server-v2/sandbox-ui
+	url = https://github.com/ONDC-Official/sandbox-ui.git
+[submodule "Mock-Server-v2/sandbox-backend"]
+	path = Mock-Server-v2/sandbox-backend
+	url = https://github.com/ONDC-Official/sandbox-backend.git
