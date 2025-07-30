@@ -1,44 +1,38 @@
 # ONDC Workbench
 
-Developer tools and utilities for ONDC ecosystem.
+Developer tools and testing infrastructure for ONDC ecosystem.
 
-## Tools Include:
-- API Testing Suite
-- Protocol Validator
-- Mock Server
-- Development Environment Setup
+## Components
 
-## Quick Start
+### Automation Framework
+- **automation-api-service**: API automation service
+- **automation-config-service**: Configuration service for automation
+- **automation-frontend**: Frontend for automation tools
 
-### API Testing Suite
-```bash
-cd api-testing
-npm install
-npm run test
-```
+### Mock Servers
 
-### Protocol Validator
-```bash
-cd protocol-validator
-python -m pip install -r requirements.txt
-python validate.py --spec path/to/spec.json
-```
+#### Mock Server v1
+- **ondc-mock-server**: Basic mock server implementation
+- **mock-server-utility**: Utilities for mock server v1
 
-### Mock Server
-```bash
-cd mock-server
-docker build -t ondc-mock-server .
-docker run -p 8080:8080 ondc-mock-server
-```
+#### Mock Server v2
+- **sandbox-ui**: Sandbox user interface
+- **sandbox-backend**: Sandbox backend services
 
-## Development Setup
+#### Mock Server v3
+- **protocol-server-engine**: Protocol server engine
+- **protocol-server-config**: Protocol server configuration
 
-1. Clone this repository
-2. Install dependencies for each tool
-3. Configure environment variables
-4. Run the desired tool
+### Archive Destinations
+- TRV Mock & Sandbox-UI To Archive
+- RET & SRV Mock To Archive
+- RSF, IGM & FIS Mock To Archive
+
+## Usage
+
+Each component has its own setup and usage instructions in respective directories.
 
 ## Related Repositories
-- [ONDC-Specifications](https://github.com/nmonga26/ONDC-Specifications)
 - [Services](https://github.com/nmonga26/Services)
-- [Reference-SDKs-Services](https://github.com/nmonga26/Reference-SDKs-Services)
+- [Specification](https://github.com/nmonga26/Specification)
+- [SDKs-Packages-and-Utilities](https://github.com/nmonga26/SDKs-Packages-and-Utilities)
