@@ -1,9 +1,0 @@
-{
-  "name": "ondc-api-testing",
-  "version": "1.0.0",
-  "description": "API Testing Suite for ONDC",
-  "scripts": {
-    "test": "jest",
-    "test:watch": "jest --watch"
-  }
-}
